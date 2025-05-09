@@ -18,18 +18,24 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "fastify": "^5.0.0",
-    "fastify-plugin": "^5.0.0",
     "@fastify/autoload": "^6.0.0",
+    "@fastify/mongodb": "^9.0.2",
+    "@fastify/request-context": "^6.2.0",
     "@fastify/sensible": "^6.0.0",
-    "fastify-cli": "^7.4.0"
+    "@sinclair/typebox": "^0.34.33",
+    "@types/bcrypt": "^5.0.2",
+    "bcrypt": "^5.1.1",
+    "dotenv": "^16.5.0",
+    "fastify": "^5.0.0",
+    "fastify-cli": "^7.4.0",
+    "fastify-plugin": "^5.0.0"
   },
   "devDependencies": {
     "@types/node": "^22.1.0",
     "c8": "^10.1.2",
-    "ts-node": "^10.4.0",
     "concurrently": "^9.0.0",
     "fastify-tsconfig": "^3.0.0",
+    "ts-node": "^10.4.0",
     "typescript": "~5.8.2"
   }
 }
