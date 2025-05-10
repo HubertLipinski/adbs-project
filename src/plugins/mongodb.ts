@@ -9,5 +9,7 @@ export default fp(async (fastify, opts) => {
         forceClose: true,
         url: `${process.env.MONGODB_URI}`,
     })
+
+    fastify.log.info('MongoDB connection started')
 })
 
